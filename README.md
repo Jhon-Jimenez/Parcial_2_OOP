@@ -10,11 +10,11 @@ The goal is that with a definition of the problem, propose a UML and implement t
 
 ## Problem Statement
 
-## Movie Tickets
+## Exercise
 
 ### Goal
 
-
+Problem statement
 
 ## UML Diagram
 
