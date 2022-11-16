@@ -10,15 +10,15 @@ The goal is that with a definition of the problem, propose a UML and implement t
 
 ## Problem Statement
 
-## Exercise
+## Parking Lot
 
 ### Goal
 
-Problem statement
+You have a parking lot that accepts cars only during certain times. The cars can be charged by minute, hour or days. You will charge different depending on whether the car is a compact, SUV or a Van. You need to keep track of the available spaces to admit a car. You need to show how many spaces are left. There are different spaces for compact cars, SUV and van. You need to allow multiple users. The users should be able to register and have an account that gives them the ability to reserve a parking spot for the next day.
 
 ## UML Diagram
 
-This UML simple diagram below allows a user to sell as many tickets as it wants and to keep track of available seats in the theater. The code for the diagram is in the `movie_tickets_uml.puml` file.
+This UML simple diagram below allows a user to sell as many tickets as it wants and to keep track of available seats in the theater. The code for the diagram is in the `parking_lot_uml.puml` file.
 
 ![UML Diagram]()
 
