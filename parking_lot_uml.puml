@@ -1,0 +1,40 @@
+@startuml parking_lot_uml.puml
+
+left to right direction
+
+class Vehiculo{
+tipo: str
+dias: int
+horas: int
+minutos: int
+pago: float
+calcular_pago()
+get_pago()
+}
+
+class Parqueadero{
+hora: int
+horario: str
+num_espacios: lista
+}
+
+class ABC_Usuario{
+nombre: str
+cc: int
+parquear_carro(nombre: str, tipo: str, dias: int, horas: int, minutos: int)
+retir_carro(nombre:str, tipo: str, dias: int, horas: int, minutos: int)
+}
+
+class Usuario{
+nombre: str
+cc: int
+parquear_carro(nombre: str, tipo: str, dias: int, horas: int, minutos: int)
+retir_carro(nombre:str, tipo: str, dias: int, horas: int, minutos: int)
+}
+
+ABC_Usuario --|> Usuario
+Parqueadero "1" --* "*" Vehiculo
+Usuario -- Parqueadero
+Usuario "*" --* "1" Vehiculo
+
+@enduml
