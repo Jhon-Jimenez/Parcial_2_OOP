@@ -20,7 +20,9 @@ You have a parking lot that accepts cars only during certain times. The cars can
 
 This UML simple diagram below allows a user to sell as many tickets as it wants and to keep track of available seats in the theater. The code for the diagram is in the `parking_lot_uml.puml` file.
 
-![UML Diagram]()
+![UML Diagram](https://github.com/Jhon-Jimenez/Parcial_2_OOP/blob/main/parkin_lot_uml.png)
+
+Explicación: Para el uml se consideraron las clases necesarias para resolver el problema. Se muestra la creación de una clase abstracta con los atributos y metodos que utilizaran todos los usuarios que se registren por medio de la clase Usuario. Esta clase Usuario hereda de la clase abstracte ABC_Usuario. Una clase parqueadero con cada espacio para los vehiculos. Y una clase para los vehiculos con los metodos y atributos necesario para este problema. Para este problema también se considera el uso de la herencia y la composicion
 
 ## Python Code
 

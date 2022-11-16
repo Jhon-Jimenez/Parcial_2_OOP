@@ -22,14 +22,14 @@ class ABC_Usuario{
 nombre: str
 cc: int
 parquear_carro(nombre: str, tipo: str, dias: int, horas: int, minutos: int)
-retir_carro(nombre:str, tipo: str, dias: int, horas: int, minutos: int)
+retirar_carro(nombre:str, tipo: str, dias: int, horas: int, minutos: int)
 }
 
 class Usuario{
 nombre: str
 cc: int
 parquear_carro(nombre: str, tipo: str, dias: int, horas: int, minutos: int)
-retir_carro(nombre:str, tipo: str, dias: int, horas: int, minutos: int)
+retirar_carro(nombre:str, tipo: str, dias: int, horas: int, minutos: int)
 }
 
 ABC_Usuario --|> Usuario
