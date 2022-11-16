@@ -4,5 +4,6 @@ class Parqueadero:
         self.horario = horario
         self.num_espacios = num_espacios
     
+    @property
     def asignar_espacios(self) -> None:
         pass

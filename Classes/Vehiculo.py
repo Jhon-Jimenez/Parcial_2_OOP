@@ -7,11 +7,11 @@ class Vehiculo:
         self.minutos = minutos
         self.pago = pago
     
-
+    @property
     def __str__(self):
         return "El vehiculo de tipo " + self.tipo + " duró " + str(self.dias) + " días con "  + str(self.horas) + " horas y "  + str(self.minutos) + " minutos en el parqueadero"
     
-    
+    @property
     def calcular_pago(self) -> None:
         valor_minutos = 0
         valor_horas = 0
