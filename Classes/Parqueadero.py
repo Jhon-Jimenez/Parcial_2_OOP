@@ -1,4 +1,7 @@
 class Parqueadero:
+    """
+    Clase principal para el parqueadero
+    """
     def __init__(self, hora: int, horario: str, num_espacios) -> None:
         self.hora = hora
         self.horario = horario

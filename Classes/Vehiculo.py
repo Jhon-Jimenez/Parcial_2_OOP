@@ -1,6 +1,12 @@
 
 class Vehiculo:
+    """
+    Clase para los vehiculos de cada usuario
+    """
     def __init__(self, tipo: str, dias: int, horas: int, minutos: int, pago: float) -> None:
+        """
+        Constructor para la clase Vehiculos
+        """
         self.tipo = tipo
         self.dias = dias
         self.horas = horas
@@ -9,10 +15,16 @@ class Vehiculo:
     
     @property
     def __str__(self):
+        """
+        Muestra en pantalla lo registrado para cada usuario
+        """
         return "El vehiculo de tipo " + self.tipo + " duró " + str(self.dias) + " días con "  + str(self.horas) + " horas y "  + str(self.minutos) + " minutos en el parqueadero"
     
     @property
     def calcular_pago(self) -> None:
+        """
+        Metodo para calcular el pago de cada vehiculo
+        """
         valor_minutos = 0
         valor_horas = 0
         valor_dias = 0
@@ -37,5 +49,8 @@ class Vehiculo:
     
     @property
     def get_pago(self) -> float:
+        """
+        Metodo getter para obtener el pago de cada vehiculo
+        """
         self.calcular_pago()
         return self.pago
